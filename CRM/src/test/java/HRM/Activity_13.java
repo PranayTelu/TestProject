@@ -8,6 +8,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -37,12 +38,15 @@ public class Activity_13 {
 
         //Find the login button
         driver.findElement(By.cssSelector("#btnLogin")).click();
+        
+        
 
         //wait for page to load
         wait.until(ExpectedConditions.textToBePresentInElementLocated(By.className("head"), "Dashboard"));
 
         //Find the Homepage Heading
         WebElement heading = driver.findElement(By.tagName("h1"));
+        
 
         //Make sure the heading reads "Dashboard"
         Assert.assertEquals(heading.getText(), "Dashboard");

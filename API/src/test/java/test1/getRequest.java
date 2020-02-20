@@ -11,14 +11,14 @@ public class getRequest {
 	@Test
 	public void firstt() {
 		// Specify Base URI
-		RestAssured.baseURI = "http://dummy.restapiexample.com/api/v1/employees";
+		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city/";
 
 		// Send Object
 		RequestSpecification httpRequest = RestAssured.given();
 		Response response = null;
 		// Response Object
 		
-			response = httpRequest.get("");
+			response = httpRequest.get("hyderabad");
 
 			String resbody = response.getBody().asString();
 			System.out.println("Json Body  " + resbody);

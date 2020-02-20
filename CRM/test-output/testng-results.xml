@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14261" started-at="2020-02-07T11:34:09 IST" finished-at="2020-02-07T11:34:23 IST">
+  <suite name="Default suite" duration-ms="12588" started-at="2020-02-13T15:17:18 IST" finished-at="2020-02-13T15:17:31 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14261" started-at="2020-02-07T11:34:09 IST" finished-at="2020-02-07T11:34:23 IST">
-      <class name="Practice.Jobs15">
-        <test-method status="PASS" signature="newww()[pri:0, instance:Practice.Jobs15@2a742aa2]" name="newww" duration-ms="14198" started-at="2020-02-07T11:34:09 IST" finished-at="2020-02-07T11:34:23 IST">
+    <test name="Default test" duration-ms="12588" started-at="2020-02-13T15:17:18 IST" finished-at="2020-02-13T15:17:31 IST">
+      <class name="Practice.CRM1">
+        <test-method status="PASS" signature="crm1()[pri:0, instance:Practice.CRM1@2a742aa2]" name="crm1" duration-ms="12518" started-at="2020-02-13T15:17:18 IST" finished-at="2020-02-13T15:17:31 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newww -->
-      </class> <!-- Practice.Jobs15 -->
+        </test-method> <!-- crm1 -->
+      </class> <!-- Practice.CRM1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

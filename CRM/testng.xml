@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="lms.Activity_11" />
+			<class name="lms.Activity_1" />
+			<class name="lms.Activity_12" />
+			<class name="lms.Activity_10" />
+			<class name="lms.Activity_13" />
+			<class name="Practice.LMS11" />
+			<class name="lms.Activity_14" />
+			<class name="jobs.Activity_7" />
+			<class name="jobs.Activity_6" />
+			<class name="jobs.Activity_9" />
+			<class name="jobs.Activity_8" />
+			<class name="CRM.Activity_4" />
+			<class name="CRM.Activity_5" />
+			<class name="CRM.Activity_2" />
+			<class name="CRM.Activity_3" />
+			<class name="CRM.Activity_1" />
+			<class name="CRM.Activity_8" />
+			<class name="CRM.Activity_9" />
+			<class name="CRM.Activity_6" />
+			<class name="CRM.Activity_7" />
+			<class name="Practice.CRM9" />
+			<class name="Practice.CRM3" />
+			<class name="Practice.CRM4" />
+			<class name="Practice.CRM1" />
+			<class name="Practice.CRM2" />
+			<class name="Practice.CRM7" />
+			<class name="Practice.CRM8" />
+			<class name="Practice.CRM5" />
+			<class name="Practice.CRM6" />
+			<class name="Practice.allCourses" />
+			<class name="CRM.Activity_13" />
+			<class name="CRM.Activity_12" />
+			<class name="CRM.Activity_10" />
+			<class name="jobs.Activity_11" />
+			<class name="jobs.Activity_12" />
+			<class name="jobs.Activity_10" />
+			<class name="jobs.Activity_13" />
+			<class name="jobs.Activity_14" />
+			<class name="HRM.Activity_10" />
+			<class name="HRM.Activity_11" />
+			<class name="HRM.Activity_6" />
+			<class name="HRM.Activity_5" />
+			<class name="HRM.Activity_13" />
+			<class name="HRM.Activity_14" />
+			<class name="HRM.Activity_4" />
+			<class name="HRM.Activity_3" />
+			<class name="HRM.Activity_9" />
+			<class name="HRM.Activity_8" />
+			<class name="HRM.Activity_7" />
+			<class name="jobs.Activity_3" />
+			<class name="jobs.Activity_2" />
+			<class name="Practice.Jobs11" />
+			<class name="jobs.Activity_5" />
+			<class name="jobs.Activity_4" />
+			<class name="HRM.Activity_2" />
+			<class name="HRM.Activity_1" />
+			<class name="Practice.Jobs15" />
+			<class name="jobs.Activity_1" />
+			<class name="lms.Activity_5" />
+			<class name="lms.Activity_4" />
+			<class name="lms.Activity_3" />
+			<class name="lms.Activity_2" />
+			<class name="lms.Activity_9" />
+			<class name="lms.Activity_8" />
+			<class name="lms.Activity_7" />
+			<class name="lms.Activity_6" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

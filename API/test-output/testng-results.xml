@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4254" started-at="2020-02-10T15:21:29 IST" finished-at="2020-02-10T15:21:33 IST">
+  <suite name="Default suite" duration-ms="3504" started-at="2020-02-12T13:03:45 IST" finished-at="2020-02-12T13:03:48 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4254" started-at="2020-02-10T15:21:29 IST" finished-at="2020-02-10T15:21:33 IST">
-      <class name="test1.getRequest">
-        <test-method status="PASS" signature="firstt()[pri:0, instance:test1.getRequest@436e852b]" name="firstt" duration-ms="4200" started-at="2020-02-10T15:21:29 IST" finished-at="2020-02-10T15:21:33 IST">
+    <test name="Default test" duration-ms="3504" started-at="2020-02-12T13:03:45 IST" finished-at="2020-02-12T13:03:48 IST">
+      <class name="test1.postRequest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:test1.postRequest@436e852b]" name="test1" duration-ms="3459" started-at="2020-02-12T13:03:45 IST" finished-at="2020-02-12T13:03:48 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstt -->
-      </class> <!-- test1.getRequest -->
+        </test-method> <!-- test1 -->
+      </class> <!-- test1.postRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
